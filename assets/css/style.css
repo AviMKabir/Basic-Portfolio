@@ -1,11 +1,53 @@
+
+/* HEADER */
 .header {
-    padding: 15px;
-    text-align: center;
-    background: #1abc9c;
+
+    padding: 10px;
+    background: #B5E9FF;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     text-align: left;
     font-family: 'Georgia'
   }
 
+/* BG IMAGE */
+  body {
+    background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png);
+    
+   }
 
+/* NAV BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B5E9FF;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(174, 225, 255);
+  }
+
+  li {
+    float: rright;
+    border-right:1px solid white;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
