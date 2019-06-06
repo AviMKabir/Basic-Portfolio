@@ -3,42 +3,59 @@
 /* BG IMAGE */
   body {
     background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png);
-    
+    /* space on the header */
+    margin: 0;
+    padding: 0;
+
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 18px;
+
+    /* space between the lines */
+    line-height: 150%;
+
    }
+
 
 /* NAV BAR */
 
-ul {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #B5E9FF;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgb(174, 225, 255);
-  }
 
-  li {
-    float: rright;
-    border-right:1px solid white;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ACE6FF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
   
-  li:last-child {
-    border-right: none;
-  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+/* Hover color */
+li a:hover {
+  background-color: rgb(185, 234, 255);
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+
+}
