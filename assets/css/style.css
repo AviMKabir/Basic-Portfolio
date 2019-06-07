@@ -133,10 +133,37 @@ nav ul {
       float: left;
   }
   
-  #bio-image {
+  #bio-image
+    {
   
+      margin-right: 20px;
+      margin-top: 14px;
+      width: 200px;
+    
+  }
+
+  #portfolio1,
+  #portfolio2,
+  #portfolio3,
+  #portfolio4,
+  #portfolio5 
+    {
+
+    width: 200px;
     margin-right: 20px;
     margin-top: 14px;
-    width: 200px;
-    
+  }
+
+
+  .footercontainer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
   }
