@@ -33,8 +33,9 @@ html {
 
 .navbar {
 
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
+  z-index: 100;
 }
 
 header {
@@ -45,6 +46,7 @@ header {
   position: fixed;
   width: 100%;
   padding-bottom: 20px;
+  z-index: 100;
   
   
   
@@ -81,8 +83,9 @@ h2{
   position: fixed;
   color: white;
   background-color: #4aaaa5;
-  margin-left: 220px;
+  margin-left: 260px;
   padding: 38px;
+  z-index: 100;
   
   
   
@@ -144,9 +147,9 @@ nav ul {
 
     overflow: auto;
     background-color: white;
-    padding: 20px;
+    padding: 10px 20px;
     margin-top: 120px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     border: solid 1px #dddddd;
     width: 920px;
 
@@ -175,6 +178,94 @@ nav ul {
       margin-top: 14px;
       width: 200px;
   }
+
+  #my-bio {
+
+    margin-top: 10px;
+  }
+
+
+  .portfolio-1,
+  .portfolio-2 {
+
+    position: relative;
+    display: inline;
+    
+    
+  }
+
+  .portfolio-1-text
+   {
+
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  color: white;
+  background-color: #4aaaa5;
+  padding: 10px 61px;
+   }
+
+  .portfolio-2-text {
+
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 53.5px;
+    
+  }
+
+  .portfolio-3,
+  .portfolio-4 {
+
+    
+    position: relative;
+    display: inline;
+    
+  }
+
+  .portfolio-3-text {
+    
+    clear: both;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 51.5px;
+  }
+
+  .portfolio-4-text {
+    
+    clear: both;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 20.5px;
+  }
+
+  .portfolio-5 {
+
+    
+    position: relative;
+    
+    
+  }
+  .portfolio-5-text {
+    
+    clear: both;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px 16.5px;
+  }
+
+
 
  #footer {
 
