@@ -33,11 +33,25 @@ html {
 
 .navbar {
 
-  width: 70%;
+   
   margin: 0 auto;
   z-index: 100;
+  width: 960px;
 }
 
+
+.logo { 
+  
+  float: left;
+  color: white;
+  background-color: #4aaaa5;
+  
+  padding: 38px;
+  z-index: 101;
+  
+  
+  
+}
 header {
 
   
@@ -45,7 +59,7 @@ header {
   border-bottom: 3px solid #cccccc;
   position: fixed;
   width: 100%;
-  padding-bottom: 20px;
+  
   z-index: 100;
   
   
@@ -79,23 +93,17 @@ h2{
 
 
 
-#logo { 
-  position: fixed;
-  color: white;
-  background-color: #4aaaa5;
-  margin-left: 260px;
-  padding: 38px;
-  z-index: 100;
-  
-  
-  
-}
+
+
+
+
 
 nav {
 
   float: right;
   position: sticky;
   top: 0;
+  
   
   
 }
@@ -107,12 +115,11 @@ nav ul {
   
   }
 
-  nav li {
+nav li {
 
     float: left;
-    margin-left: 10px;
     padding-top: 40px;
-    padding-bottom: 15px;
+    
     
     
   }
@@ -132,13 +139,16 @@ nav ul {
     color: #4aaaa5;
   }
 
+  
+
   .container{
     
     clear: both;
     margin: 0 auto;
     
-    width: 920px;
+    width: 960px;
     min-height: 100%;
+    
   
   }
   
@@ -151,7 +161,9 @@ nav ul {
     margin-top: 120px;
     margin-bottom: 15px;
     border: solid 1px #dddddd;
-    width: 920px;
+    min-width: 920px;
+    
+    
 
   }
 
@@ -174,7 +186,7 @@ nav ul {
   #portfolio-image
     {
 
-      margin-right: 20px;
+      margin-right: 10px;
       margin-top: 14px;
       width: 200px;
   }
@@ -189,7 +201,7 @@ nav ul {
   .portfolio-2 {
 
     position: relative;
-    display: inline;
+    display: inline-table;
     
     
   }
@@ -221,7 +233,7 @@ nav ul {
 
     
     position: relative;
-    display: inline;
+    display: inline-table;
     
   }
 
@@ -251,6 +263,7 @@ nav ul {
 
     
     position: relative;
+    display: inline-table;
     
     
   }
