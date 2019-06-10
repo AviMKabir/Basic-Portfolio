@@ -162,10 +162,34 @@ nav li {
     margin-bottom: 15px;
     border: solid 1px #dddddd;
     min-width: 920px;
-    
+    position: relative;
     
 
   }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 3px; /* Add a top margin */
+    margin-bottom: 5px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+
+  
+
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #75c5c1;
+  }
+
 
   #main-bio,
   #bio-image
