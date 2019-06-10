@@ -1,3 +1,5 @@
+
+/* So there isn't any space when you scroll down */
 *{
 
   margin: 0;
@@ -30,10 +32,25 @@ html {
 
    }
 
+   h1 {
+  
+    margin: 0 auto;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 35px;
+    color: #4aaaa5;
+  }
+   
+  h2{
+  
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: #4aaaa5;
+  }
+
 
 .navbar {
 
-   
+   /* inside of the header making sure the z-index is high so it covers everything  */
   margin: 0 auto;
   z-index: 100;
   width: 960px;
@@ -42,6 +59,9 @@ html {
 
 .logo { 
   
+
+  /* I stuck this inside the navbar div so I can float it left */
+
   float: left;
   color: white;
   background-color: #4aaaa5;
@@ -52,51 +72,8 @@ html {
   
   
 }
-header {
 
-  
-  background-color: rgb(255, 255, 255);
-  border-bottom: 3px solid #cccccc;
-  position: fixed;
-  width: 100%;
-  
-  z-index: 100;
-  
-  
-  
-}
-  
-
-header::after{
-
-  content: '';
-  display: table;
-  clear: both;
-  
-}
-
-
-h1 {
-  
-  margin: 0 auto;
-  font-family: "Georgia", Times, "Times New Roman", serif;
-  font-size: 35px;
-  color: #4aaaa5;
-}
- 
-h2{
-
-  font-family: "Georgia", Times, "Times New Roman", serif;
-  font-size: 30px;
-  color: #4aaaa5;
-}
-
-
-
-
-
-
-
+/* stuff for the nav list */
 
 nav {
 
@@ -139,6 +116,28 @@ nav li {
     color: #4aaaa5;
   }
 
+  header {
+
+  
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #cccccc;
+    position: fixed;
+    width: 100%;
+    
+    z-index: 100;
+    
+    
+    
+  }
+    
+  /* clearing the content so the header shows up */
+  header::after{
+  
+    content: '';
+    display: table;
+    clear: both;
+    
+  }
   
 
   .container{
@@ -167,30 +166,11 @@ nav li {
 
   }
 
-  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 3px; /* Add a top margin */
-    margin-bottom: 5px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    
-  }
-
   
 
 
-  input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    cursor: pointer;
-  }
 
-  input[type=submit]:hover {
-    background-color: #75c5c1;
-  }
-
-
+  /* floating these so they go next to each other and don't take up a line of space */
   #main-bio,
   #bio-image
        {
@@ -207,13 +187,7 @@ nav li {
     
   }
 
-  #portfolio-image
-    {
 
-      margin-right: 10px;
-      margin-top: 14px;
-      width: 200px;
-  }
 
   #my-bio {
 
@@ -221,6 +195,18 @@ nav li {
   }
 
 
+  /* the portfolio page */
+  
+  #portfolio-image
+  {
+
+    margin-right: 10px;
+    margin-top: 14px;
+    width: 200px;
+}
+
+
+  /* pairing the portfolio pictures so they are inline  */
   .portfolio-1,
   .portfolio-2 {
 
@@ -302,6 +288,34 @@ nav li {
     padding: 10px 16.5px;
   }
 
+
+  /* this is the contact page */
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 3px; /* Add a top margin */
+    margin-bottom: 5px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+
+  
+
+
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #75c5c1;
+  }
+
+
+  /* this is the footer */
 
 
  #footer {
