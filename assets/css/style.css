@@ -15,8 +15,10 @@ html {
   body {
     
     /* space on the header */
-    background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png);
+    /* below was the public image version but I made a local one too */
+    /* background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png); */
 
+    background-image: url("../images/Background.png");
     height: 100%;
     margin: 0;
     padding: 0;
@@ -65,7 +67,6 @@ html {
   float: left;
   color: white;
   background-color: #4aaaa5;
-  
   padding: 38px;
   z-index: 101;
   
@@ -154,7 +155,7 @@ nav li {
   #main-bio
    {
 
-    overflow: auto;
+    
     background-color: white;
     padding: 10px 20px;
     margin-top: 120px;
@@ -189,7 +190,7 @@ nav li {
 
 
 
-  #my-bio {
+  .my-bio {
 
     margin-top: 10px;
   }
@@ -207,6 +208,7 @@ nav li {
 
 
   /* pairing the portfolio pictures so they are inline  */
+  /* I am trying to make a carbon copy of the homework images I know how to make a table too I swear */
   .portfolio-1,
   .portfolio-2 {
 
@@ -320,12 +322,12 @@ nav li {
 
  #footer {
 
+  clear: both;
   background-color: #666666;
   color: #cccccc;
   position: sticky;
   height: 20px;
-  margin-top: -20px;
-  clear: both;
+  
   text-align: center;
   bottom: 0px;
   padding-top: 20px;
