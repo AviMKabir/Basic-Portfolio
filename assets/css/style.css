@@ -15,10 +15,10 @@ html {
   body {
     
     /* space on the header */
-    /* below was the public image version but I made a local one too */
-    /* background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png); */
+    /* below was the public image version but I made a local one too which wasn't working n github*/
+    background-image: url(https://raw.githubusercontent.com/AviMKabir/Basic-Portfolio/master/assets/images/background.png);
 
-    background-image: url("../images/Background.png");
+
     height: 100%;
     margin: 0;
     padding: 0;
